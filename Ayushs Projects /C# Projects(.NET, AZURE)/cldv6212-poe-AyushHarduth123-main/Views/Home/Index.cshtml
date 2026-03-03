@@ -1,0 +1,110 @@
+﻿@model IFormFile
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 1em 0;
+        text-align: center;
+    }
+
+        header h1 {
+            margin: 0;
+        }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1em 0;
+    }
+
+    main {
+        padding: 2em 0;
+    }
+
+    .form-group {
+        margin-bottom: 1em;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.5em;
+        margin-top: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .btn-primary {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+
+    .alert-success {
+        color: green;
+        padding: 1em;
+        border: 1px solid green;
+        border-radius: 5px;
+        margin-top: 1em;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Upload a File</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form asp-action="Index" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="file">Choose File</label>
+                    <input type="file" name="file" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </form>
+
+            @if (ViewBag.Message != null)
+            {
+                <div class="alert alert-success">
+                    @ViewBag.Message
+                </div>
+            }
+        </div>
+    </main>
+
+</body>
+</html>

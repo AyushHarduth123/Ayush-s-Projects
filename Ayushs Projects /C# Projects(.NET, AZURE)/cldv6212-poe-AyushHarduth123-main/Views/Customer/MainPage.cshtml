@@ -1,0 +1,112 @@
+﻿@* @model IEnumerable<ST10365068_CLDV_6212_CLOUD_PART_1.Models.Customer>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Customers List</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h4>Customers</h4>
+            <hr />
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in Model)
+                    {
+                        <tr>
+                            <td>@customer.Name</td>
+                            <td>@customer.Surname</td>
+                            <td>@customer.Email</td>
+                            <td>@customer.PhoneNumber</td>
+                            <td>@customer.Address</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div>
+                <a asp-action="Create" class="btn btn-primary">Create New Customer</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2024 ABC Retail. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+ *@
+
+ @model IEnumerable<ST10365068_CLDV_6212_CLOUD_PART_1.Models.Customer>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers List</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Customers List</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h4>Customers</h4>
+            <hr />
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in Model)
+                    {
+                        <tr>
+                            <td>@customer.Name</td>
+                            <td>@customer.Surname</td>
+                            <td>@customer.Email</td>
+                            <td>@customer.PhoneNumber</td>
+                            <td>@customer.Address</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div>
+                <a asp-action="Create" class="btn btn-primary">Create New Customer</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2024 ABC Retail. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

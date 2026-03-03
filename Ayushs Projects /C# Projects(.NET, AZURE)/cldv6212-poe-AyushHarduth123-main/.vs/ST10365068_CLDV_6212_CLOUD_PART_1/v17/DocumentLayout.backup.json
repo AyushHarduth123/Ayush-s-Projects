@@ -1,0 +1,570 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\st10365068_cldv_6212_cloud_part_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:st10365068_cldv_6212_cloud_part_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\addingforeignkeys.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:addingforeignkeys.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\queue\\queue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\queue\\queue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\services\\azureordersqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:services\\azureordersqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:controllers\\queuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\services\\azurecustomerqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:services\\azurecustomerqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\services\\customertableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:services\\customertableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/ayushst10365068.database.windows.net/ayushNewDatabase/ayush/SqlTable/dbo.Customers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\queue\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\queue\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\customer\\mainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\customer\\mainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\customer\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\customer\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\services\\azureblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:services\\azureblobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\products\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\products\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\file\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\file\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\services\\azureproductsqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:services\\azureproductsqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\services\\azurefileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:services\\azurefileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\views\\queue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:views\\queue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\addingforeignkeys.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:addingforeignkeys.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|c:\\users\\ayush\\source\\repos\\st10365068_cldv_6212_cloud_part_1\\addingforeignkeys.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{FD7CBF1C-126F-49C5-AACA-30AC6F028AFB}|ST10365068_CLDV_6212_CLOUD_PART_1.csproj|solutionrelative:addingforeignkeys.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddingForeignKeys.sql ",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\AddingForeignKeys.sql",
+              "RelativeDocumentMoniker": "AddingForeignKeys.sql",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\AddingForeignKeys.sql",
+              "RelativeToolTip": "AddingForeignKeys.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-12T10:59:45.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:45:29.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Queue.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Queue\\Queue.cshtml",
+              "RelativeDocumentMoniker": "Views\\Queue\\Queue.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Queue\\Queue.cshtml",
+              "RelativeToolTip": "Views\\Queue\\Queue.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T16:03:10.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Models\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Models\\OrderViewModel.cs",
+              "RelativeToolTip": "Models\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:07:51.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T13:00:11.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QueueController.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\QueueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\QueueController.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\QueueController.cs",
+              "RelativeToolTip": "Controllers\\QueueController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T16:01:44.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T14:01:35.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "Models\\Products.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Models\\Products.cs",
+              "RelativeToolTip": "Models\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:49:34.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AzureCustomerQueueService.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureCustomerQueueService.cs",
+              "RelativeDocumentMoniker": "Services\\AzureCustomerQueueService.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureCustomerQueueService.cs",
+              "RelativeToolTip": "Services\\AzureCustomerQueueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T17:22:42.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:24:01.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Queue\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Queue\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Queue\\Create.cshtml",
+              "RelativeToolTip": "Views\\Queue\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T13:39:08.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T12:18:11.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:03:36.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ST10365068_CLDV_6212_CLOUD_PART_1.csproj",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\ST10365068_CLDV_6212_CLOUD_PART_1.csproj",
+              "RelativeDocumentMoniker": "ST10365068_CLDV_6212_CLOUD_PART_1.csproj",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\ST10365068_CLDV_6212_CLOUD_PART_1.csproj",
+              "RelativeToolTip": "ST10365068_CLDV_6212_CLOUD_PART_1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-29T12:08:52.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AzureOrdersQueueService.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureOrdersQueueService.cs",
+              "RelativeDocumentMoniker": "Services\\AzureOrdersQueueService.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureOrdersQueueService.cs",
+              "RelativeToolTip": "Services\\AzureOrdersQueueService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:59:12.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerTableService.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\CustomerTableService.cs",
+              "RelativeDocumentMoniker": "Services\\CustomerTableService.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\CustomerTableService.cs",
+              "RelativeToolTip": "Services\\CustomerTableService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:10:50.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "dbo.Customers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/ayushst10365068.database.windows.net/ayushNewDatabase/ayush/SqlTable/dbo.Customers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/ayushst10365068.database.windows.net/ayushNewDatabase/ayush/SqlTable/dbo.Customers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-12T14:29:35.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-29T12:02:53.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Queue\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Queue\\Success.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Queue\\Success.cshtml",
+              "RelativeToolTip": "Views\\Queue\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T20:04:23.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:15:45.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:01:33.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:02:43.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T16:54:41.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Customer\\MainPage.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\MainPage.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Customer\\MainPage.cshtml",
+              "RelativeToolTip": "Views\\Customer\\MainPage.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T17:12:04.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T12:19:38.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileController.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Controllers\\FileController.cs",
+              "RelativeToolTip": "Controllers\\FileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:35:15.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Customer\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Success.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Customer\\Success.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Success.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T12:44:16.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AzureBlobService.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureBlobService.cs",
+              "RelativeDocumentMoniker": "Services\\AzureBlobService.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureBlobService.cs",
+              "RelativeToolTip": "Services\\AzureBlobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T12:10:23.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Products\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Success.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Products\\Success.cshtml",
+              "RelativeToolTip": "Views\\Products\\Success.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:02:34.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\File\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\File\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\File\\Upload.cshtml",
+              "RelativeToolTip": "Views\\File\\Upload.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAmwJcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T16:27:07.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T13:48:28.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAUwKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-10T19:44:15.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AzureProductsQueueService.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureProductsQueueService.cs",
+              "RelativeDocumentMoniker": "Services\\AzureProductsQueueService.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureProductsQueueService.cs",
+              "RelativeToolTip": "Services\\AzureProductsQueueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T16:49:14.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AzureFileService.cs",
+              "DocumentMoniker": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureFileService.cs",
+              "RelativeDocumentMoniker": "Services\\AzureFileService.cs",
+              "ToolTip": "C:\\Users\\ayush\\source\\repos\\ST10365068_CLDV_6212_CLOUD_PART_1\\Services\\AzureFileService.cs",
+              "RelativeToolTip": "Services\\AzureFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T16:13:38.023Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

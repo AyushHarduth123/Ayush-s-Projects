@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ST10365068_CLDV_6212_CLOUD_PART_1.Models.Products>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Products List</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h4>Products</h4>
+            <hr />
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model)
+                    {
+                        <tr>
+                            <td>@product.ProductName</td>
+                            <td>@product.Description</td>
+                            <td>@Html.DisplayFor(modelItem => product.Price)</td>
+                            <td>@product.Category</td>
+                            <td>@product.Quantity</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <div>
+                <a asp-action="Create" class="btn btn-primary">Create New Product</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>© 2024 ABC Retail. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
