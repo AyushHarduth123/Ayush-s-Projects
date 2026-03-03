@@ -1,0 +1,151 @@
+﻿@* <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+    }
+
+    header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 1em 0;
+        text-align: center;
+    }
+
+        header h1 {
+            margin: 0;
+        }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1em 0;
+    }
+
+    main {
+        padding: 2em 0;
+    }
+
+    h4, h2 {
+        color: #4CAF50;
+    }
+
+    .form-group {
+        margin-bottom: 1em;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 0.5em;
+        margin-top: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .btn-primary {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #45a049;
+        }
+
+    .btn-secondary {
+        background-color: #ccc;
+        color: #333;
+        border: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .btn-secondary:hover {
+            background-color: #bbb;
+        }
+
+    .text-danger {
+        color: red;
+    }
+
+    .alert-success {
+        color: green;
+        padding: 1em;
+        border: 1px solid green;
+        border-radius: 5px;
+        margin-top: 1em;
+    }
+
+
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Upload a File</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form asp-action="Upload" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>File</label>
+                    <input type="file" name="file" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea name="description" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </form>
+
+            @if (ViewBag.Message != null)
+            {
+                <p class="alert alert-success">@ViewBag.Message</p>
+            }
+        </div>
+    </main>
+
+</body>
+</html>
+ *@
+
+@{
+    ViewData["Title"] = "Upload File";
+}
+
+<h2>Upload File</h2>
+
+<div class="container">
+    @if (!String.IsNullOrEmpty(ViewBag.Message))
+    {
+        <div class="success-message">@ViewBag.Message</div>
+    }
+
+    <form asp-controller="File" asp-action="Upload" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="file">Choose file:</label>
+            <input type="file" name="file" class="form-control" id="file">
+        </div>
+        <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea name="description" class="form-control" id="description"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </form>
+</div>
