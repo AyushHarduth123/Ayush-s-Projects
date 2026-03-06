@@ -397,3 +397,99 @@ order by first_name asc;
 -- used to compare rows of the same table 
 -- helps to display a heirachy of data
 
+alter table customers
+add referral_id int;
+
+update customers 
+set referral_id = 2
+where customer_id = 4;
+
+select a.customer_id, a.first_name, a.last_name, Concat(b.first_name, " ",b.last_name) as referred_by
+from customers as a
+inner join customers as b
+on a.referral_id = b.customer_id;
+
+set sql_safe_updates =0;
+alter table employees add supervisor_id int;
+update employees
+set supervisor_id = 3
+where employee_id = 6;
+select * from employees;
+
+alter table employees 
+drop column superviosor_id;
+
+select a.first_name, a.last_name, concat(b.first_name," ", b.last_name ) as "reports_to"
+from employees as a
+inner join employees as b
+on a.supervisor_id = b.employee_id;
+
+commit;
+-- views 
+-- virtual tables based on the result of a sql statement, 
+-- the fields in a view are from one or more real tables in the database 
+-- they are not real tables but can be interacted with as if they were 
+-- updates automatically 
+
+select * from employees;
+
+create view employee_attendence as 
+select first_name, last_name 
+from employees;
+
+select * from employee_attendence;
+
+-- drop a view 
+drop view employee_attendence;
+
+select * from customers;
+
+alter table customers 
+add column email varchar(50);
+
+update customers 
+set email = "Ppuff@gmail.com"
+where customer_id =4;
+
+create view customer_emails as select email from customers;
+
+select * from customer_emails;
+
+insert into customers 
+values (5,"Pearl","Kraks", Null,"PKrabs@gmail.com");
+
+-- INDEXES ]
+-- used to find values within a specific column more quickly 
+-- MYSQL searches squentailly through a coulmn so the longer the column the more expensive the operation is
+-- UPDATE will take longer than a SELECT 
+
+select * from customers;
+
+-- searching for indexes 
+-- we can locate a customer by using the primary key not so much there name or last name 
+show indexes from customers;
+
+-- create index 
+create index last_name_idx
+on customers(last_name);
+
+
+-- now we can search for a customer using there last name 
+select * from customers 
+where last_name = "Puff";
+
+create index first_name_idx
+on customers(first_name);
+
+-- creating multi index 
+create index last_name_first_name_idx
+on customers(last_name, first_name);
+
+show indexes from customers;
+
+alter table customers 
+drop index first_name_idx;
+
+select * from customers 
+where last_name = "Puff";
+
