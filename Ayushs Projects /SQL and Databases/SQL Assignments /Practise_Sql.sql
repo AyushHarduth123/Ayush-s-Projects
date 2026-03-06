@@ -493,3 +493,257 @@ drop index first_name_idx;
 select * from customers 
 where last_name = "Puff";
 
+-- Sub queries 
+-- A query in a query 
+-- the outtcomes from the subquery can be used in the outer query 
+select concat(first_name, last_name),hourly_pay,(select avg(hourly_pay) from employees)as avg_hourly_pay
+from employees;
+set sql_safe_updates =0;
+
+
+update employees
+set hourly_pay = 294.78
+where employee_id = 6;
+
+
+select concat(first_name, last_name)as Name ,hourly_pay
+from employees 
+where hourly_pay >(select avg(hourly_pay) from employees);
+
+select * from transactions;
+
+select concat(first_name, last_name)as Name
+from customers
+where customer_id in 
+(select customer_id from transactions where customer_id is not null);
+
+
+-- group by 
+-- aggregate all rows by a specific column often used with aggregate funtions 
+
+select * from transactions;
+
+
+
+alter table transactions
+add column order_date date;
+
+update transactions 
+set order_date = "2023-01-03"
+where transaction_id = 1010;
+select * from transactions;
+
+update transactions 
+set customer_id = 4
+where transaction_id= 1009;
+
+insert into transactions(amount, customer_id, order_date)
+values
+(4.99,1,"2023-01-01"),
+(5.48,null,"2023-01-01")
+;
+
+-- how much money per day 
+select sum(amount), order_date
+from transactions
+group by order_date;
+
+
+-- maximum
+select max(amount), order_date
+from transactions
+group by order_date;
+
+select min(amount), order_date
+from transactions
+group by order_date;
+
+select count(amount), order_date
+from transactions
+group by order_date;
+
+
+select sum(amount), customer_id
+from transactions
+group by customer_id;
+
+-- having is used when u using a group by and also need to use a where 
+select count(amount) as count, customer_id
+from transactions
+group by customer_id
+having count(amount) >1 and customer_id is not null
+;
+
+
+-- roll up clause 
+-- like group by 
+-- super aggregate function 
+
+select count(transaction_id), order_date
+from transactions 
+group by order_date with rollup;
+-- basically subtotal
+
+
+select count(transaction_id) as "# of orders", customer_id
+from transactions 
+group by customer_id with rollup;
+
+select sum(hourly_pay) as hourly_pay, employee_id
+from employees
+group by employee_id with rollup;
+
+
+-- on delete set null clause , when a fk is deleted replace the fk with null 
+-- on delete cascade - when a fk is deleted, delete the row as well 
+
+select * from customers;
+-- fk preventing us from deleteing this 
+set foreign_key_checks = 1;
+delete from customers
+where customer_id = 4;
+select * from customers;
+
+insert into customers values(4, "Poppy", "Puff", 2, "PPuff@gmail.com");
+select*from customers;
+
+alter table transactions drop foreign key fk_customer_id;
+
+alter table transactions 
+add constraint fk_customer_id
+foreign key(customer_id) references customers(customer_id)
+on delete cascade;
+
+alter table transactions 
+add constraint fk_customer_id
+foreign key(customer_id) references customers(customer_id)
+on delete set null;
+
+
+delete from customers
+where customer_id =4;
+
+-- Stored Procedure
+-- prepared SQL code that u can save 
+-- great if u need to reused the same query 
+delimiter //
+create procedure get_transactions()
+begin
+ select * from transactions;
+end//
+delimiter ;
+
+call get_customers();
+
+drop procedure get_customers;
+
+
+delimiter //
+create procedure find_customer(in id int)
+begin
+	select * from customers
+    where customer_id = id;
+end//
+delimiter ;
+
+call find_customer(1);
+
+drop procedure find_customer;
+
+delimiter //
+create procedure find_customer(in f_name varchar(50), in l_name varchar(50))
+begin 
+	select * from customers
+    where first_name = f_name and last_name = l_name;
+end//
+delimiter ;
+
+call find_customer("Larry","Lobster");
+
+-- Trigger 
+-- when a even happens 
+-- insert, update, delete 
+-- checks dtaa, handles errors 
+
+alter table employees
+add column salary decimal(10,2) after hourly_pay;
+select * from employees;
+
+update employees 
+set salary = hourly_pay * 2080;
+select* from employees;
+
+create trigger before_hourly_pay_update
+before update on employees
+for each row 
+set new.salary = (new.hourly_pay * 2080);-- telling sql to use the new salary not the old one 
+    
+    
+update employees
+set hourly_pay = hourly_pay + 1;
+select * from employees
+;
+
+delete from employees where employee_id = 6;
+
+create trigger before_hourly_pay_insert
+before insert on employees 
+for each row 
+set new.salary = (new.hourly_pay * 2080);
+
+insert into employees 
+values (6,"Sheldon", "Plankton","Sheldon.Plankton@gmail.com", 10, NULL, "Janitor", "2023-01-07",5);
+
+select* from employees;
+
+create table expenses (
+expense_id int primary key,
+expense_name varchar(50),
+expense_total decimal(10,2)
+);
+
+insert into expenses
+values 
+(1, "salaries", 0),
+(2, "supplies", 0),
+(3, "taxes", 0);
+
+update expenses 
+set expense_total = (select sum(salary) from employees)
+where expense_name = "salaries";
+
+
+create trigger after_salary_delete
+after delete on employees 
+for each row
+update expenses
+set expense_total = expense_total - old.salary
+where expense_name = "salaries";
+
+select * from expenses;
+
+create trigger after_salary_insert
+after insert on employees
+for each row 
+update expenses 
+set expense_total = expense_total + new.salary 
+where expense_name = "salaries";
+
+drop trigger after_salary_insert;
+
+insert into employees 
+values (6,"Sheldon", "Plankton","Sheldon.Plankton@gmail.com", 10, NULL, "Janitor", "2023-01-07",5);
+select* from employees;
+
+
+create trigger after_salary_update
+after update on employees 
+for each row 
+update expenses
+set expense_total = expense_total + (new.salary - old.salary)
+where expense_name = "salaries";
+
+update employees
+set hourly_pay = 1000
+where employee_id = 1;
+select * from employees;
