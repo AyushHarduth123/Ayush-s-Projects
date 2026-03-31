@@ -571,8 +571,7 @@ group by customer_id;
 select count(amount) as count, customer_id
 from transactions
 group by customer_id
-having count(amount) >1 and customer_id is not null
-;
+having count(amount) >1 and customer_id is not null;
 
 
 -- roll up clause 
