@@ -1,0 +1,3 @@
+Attribute,Disparate impact ratio,Equal opportunity difference,p value: prediction vs subgroup,p value: actual outcome vs subgroup,p value: error vs subgroup,SHAP share of attribute (%)
+Gender,0.8859060402684563,0.017557155488190035,0.3528157183086187,0.21101449041880882,0.8512719961901116,1.08
+Location,0.7342105263157894,0.07038123167155419,0.5353937445208599,0.44700086118308047,0.7293349699763985,1.72

@@ -1,0 +1,36 @@
+Feature,Chi square score,Chi square p value,Mutual information,RFE rank,Chi square top 10,Mutual information top 10,RFE selected,Methods agreeing
+Min_Experience_Months,53.0,3.33e-13,0.0727,1,True,True,True,3
+Internship_Experience,59.02,1.56e-14,0.0725,1,True,True,True,3
+Skill_2,13.24,2.74e-04,0.0456,1,True,True,True,3
+Skill_3,9.6,0.002,0.0181,1,True,True,True,3
+Skill_1,8.74,0.003,0.016,1,True,True,True,3
+Skill_4,7.13,0.008,0.0137,1,True,True,True,3
+Required_Skill_5,8.75,0.003,0.0122,1,True,True,True,3
+Job_Title_Welding Operator,9.97,0.002,0.0232,5,True,True,False,2
+Required_Skill_2,7.72,0.005,0.0114,1,True,False,True,2
+Required_Skill_3,9.36,0.002,0.0034,1,True,False,True,2
+Academic_Performance,0.0,0.963,0.0173,23,False,True,False,1
+Vocational_Program_Electrician,2.35,0.125,0.0165,11,False,True,False,1
+Required_Skill_4,6.37,0.012,0.0,1,False,False,True,1
+Skill_5,5.55,0.018,0.0116,2,False,False,False,0
+Location_Mumbai,0.1,0.757,0.0115,19,False,False,False,0
+Location_Delhi,0.01,0.942,0.0101,20,False,False,False,0
+Age,1.0,0.317,0.008,4,False,False,False,0
+Vocational_Program_Plumber,2.52,0.112,0.0072,21,False,False,False,0
+Location_Pune,0.14,0.709,0.0048,16,False,False,False,0
+Job_Title_Automobile Mechanic,3.15,0.076,0.0041,10,False,False,False,0
+Job_Title_IT Support Technician,0.49,0.483,0.0032,9,False,False,False,0
+Vocational_Program_IT Technician,0.0,0.968,0.001,14,False,False,False,0
+Location_Kolkata,0.0,0.995,0.0002,24,False,False,False,0
+Certifications_Count,0.17,0.676,0.0,7,False,False,False,0
+Required_Skill_1,2.93,0.087,0.0,3,False,False,False,0
+Gender_Female,0.6,0.438,0.0,22,False,False,False,0
+Gender_Male,0.58,0.446,0.0,25,False,False,False,0
+Vocational_Program_Carpenter,0.36,0.549,0.0,13,False,False,False,0
+Vocational_Program_Mechanic,0.02,0.876,0.0,12,False,False,False,0
+Vocational_Program_Welder,0.48,0.489,0.0,15,False,False,False,0
+Job_Title_Electrical Technician,0.83,0.363,0.0,8,False,False,False,0
+Job_Title_Plumbing Assistant,0.88,0.348,0.0,26,False,False,False,0
+Job_Title_Woodwork Assistant,0.42,0.516,0.0,17,False,False,False,0
+Location_Bangalore,0.81,0.369,0.0,6,False,False,False,0
+Location_Chennai,0.08,0.782,0.0,18,False,False,False,0

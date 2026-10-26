@@ -1,0 +1,36 @@
+Feature,Mean absolute SHAP,Rank,Share of total (%)
+Min_Experience_Months,1.8852042,1,17.51
+Internship_Experience,1.8650745,2,17.32
+Required_Skill_3,0.7067459,3,6.56
+Skill_2,0.6573906,4,6.11
+Required_Skill_5,0.6308649,5,5.86
+Skill_3,0.6137046,6,5.7
+Required_Skill_4,0.6099822,7,5.67
+Skill_1,0.59803194,8,5.55
+Required_Skill_2,0.58487886,9,5.43
+Skill_4,0.5593963,10,5.2
+Skill_5,0.51401937,11,4.77
+Required_Skill_1,0.47472835,12,4.41
+Certifications_Count,0.15627426,13,1.45
+Gender_Female,0.115829915,14,1.08
+Job_Title_Welding Operator,0.101931505,15,0.95
+Academic_Performance,0.085892335,16,0.8
+Job_Title_IT Support Technician,0.08437053,17,0.78
+Age,0.07822519,18,0.73
+Vocational_Program_Plumber,0.07236357,19,0.67
+Location_Pune,0.056515902,20,0.52
+Location_Bangalore,0.056254372,21,0.52
+Job_Title_Electrical Technician,0.03869215,22,0.36
+Location_Kolkata,0.030027302,23,0.28
+Job_Title_Woodwork Assistant,0.02892152,24,0.27
+Vocational_Program_Electrician,0.02834657,25,0.26
+Vocational_Program_Welder,0.02573388,26,0.24
+Location_Delhi,0.021309858,27,0.2
+Job_Title_Plumbing Assistant,0.01805267,28,0.17
+Vocational_Program_Carpenter,0.01636562,29,0.15
+Location_Mumbai,0.014436484,30,0.13
+Job_Title_Automobile Mechanic,0.0111423675,31,0.1
+Vocational_Program_IT Technician,0.010878279,32,0.1
+Vocational_Program_Mechanic,0.0077365283,33,0.07
+Location_Chennai,0.0071603716,34,0.07
+Gender_Male,0.0,35,0.0

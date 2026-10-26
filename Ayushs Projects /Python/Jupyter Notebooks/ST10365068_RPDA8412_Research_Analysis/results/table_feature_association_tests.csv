@@ -1,0 +1,20 @@
+Feature,Type,Test,Correlation with Job_Match,p value,Significant at 0.05
+Internship_Experience,Numerical,Mann Whitney U,0.37,2.24e-85,Yes
+Min_Experience_Months,Numerical,Mann Whitney U,-0.352,8.81e-78,Yes
+Skill_2,Numerical,Mann Whitney U,0.169,3.77e-19,Yes
+Skill_1,Numerical,Mann Whitney U,0.153,7.34e-16,Yes
+Required_Skill_3,Numerical,Mann Whitney U,-0.141,7.93e-14,Yes
+Required_Skill_5,Numerical,Mann Whitney U,-0.137,4.55e-13,Yes
+Skill_3,Numerical,Mann Whitney U,0.135,8.87e-13,Yes
+Skill_5,Numerical,Mann Whitney U,0.121,1.54e-10,Yes
+Required_Skill_2,Numerical,Mann Whitney U,-0.12,2.01e-10,Yes
+Skill_4,Numerical,Mann Whitney U,0.116,1.06e-09,Yes
+Required_Skill_4,Numerical,Mann Whitney U,-0.111,3.83e-09,Yes
+Required_Skill_1,Numerical,Mann Whitney U,-0.103,4.49e-08,Yes
+Job_Title,Categorical,Chi square,,0.017,Yes
+Age,Numerical,Mann Whitney U,-0.035,0.061,No
+Certifications_Count,Numerical,Mann Whitney U,-0.031,0.100,No
+Vocational_Program,Categorical,Chi square,,0.257,No
+Gender,Categorical,Chi square,,0.739,No
+Academic_Performance,Numerical,Mann Whitney U,-0.004,0.861,No
+Location,Categorical,Chi square,,0.969,No
