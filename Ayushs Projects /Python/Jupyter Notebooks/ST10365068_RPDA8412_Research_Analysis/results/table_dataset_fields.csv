@@ -1,0 +1,23 @@
+Field,Group,Role in analysis,Theoretical mapping,Data type
+Student_ID,Identifier,Excluded from modelling,None,str
+Age,Demographic,Predictor,Demographic context,int64
+Gender,Demographic (protected),Predictor and fairness audit subgroup,Van Dijk structural axis,str
+Location,Demographic (protected),Predictor and fairness audit subgroup,Van Dijk structural axis,str
+Vocational_Program,Programme detail,Predictor,Human capital investment,str
+Academic_Performance,Training performance,Predictor,Human capital indicator,float64
+Certifications_Count,Training performance,Predictor,Human capital and second level indicator,int64
+Internship_Experience,Training performance,Predictor,Human capital indicator,int64
+Skill_1,Skill assessment,Predictor,Second level digital divide indicator,int64
+Skill_2,Skill assessment,Predictor,Second level digital divide indicator,int64
+Skill_3,Skill assessment,Predictor,Second level digital divide indicator,int64
+Skill_4,Skill assessment,Predictor,Second level digital divide indicator,int64
+Skill_5,Skill assessment,Predictor,Second level digital divide indicator,int64
+Job_ID,Identifier,Excluded from modelling,None,str
+Job_Title,Job requirement profile,Predictor,Role demand context,str
+Required_Skill_1,Job requirement profile,Predictor,Role demand context,int64
+Required_Skill_2,Job requirement profile,Predictor,Role demand context,int64
+Required_Skill_3,Job requirement profile,Predictor,Role demand context,int64
+Required_Skill_4,Job requirement profile,Predictor,Role demand context,int64
+Required_Skill_5,Job requirement profile,Predictor,Role demand context,int64
+Min_Experience_Months,Job requirement profile,Predictor,Role demand context,int64
+Job_Match,Employment outcome,Dependent variable,Third level digital divide outcome,int64

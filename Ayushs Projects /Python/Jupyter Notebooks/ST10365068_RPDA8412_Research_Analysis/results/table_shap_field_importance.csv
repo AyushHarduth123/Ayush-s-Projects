@@ -1,0 +1,20 @@
+Field,Mean absolute SHAP,Rank,Construct,Share of total (%)
+Min_Experience_Months,1.8852042,1,Job requirement profile,17.51
+Internship_Experience,1.8650745,2,Training performance (human capital),17.32
+Required_Skill_3,0.7067459,3,Job requirement profile,6.56
+Skill_2,0.6573906,4,Skill assessment (second level indicator),6.11
+Required_Skill_5,0.6308649,5,Job requirement profile,5.86
+Skill_3,0.6137046,6,Skill assessment (second level indicator),5.7
+Required_Skill_4,0.6099822,7,Job requirement profile,5.67
+Skill_1,0.59803194,8,Skill assessment (second level indicator),5.55
+Required_Skill_2,0.58487886,9,Job requirement profile,5.43
+Skill_4,0.5593963,10,Skill assessment (second level indicator),5.2
+Skill_5,0.51401937,11,Skill assessment (second level indicator),4.77
+Required_Skill_1,0.47472835,12,Job requirement profile,4.41
+Job_Title,0.28311074,13,Job requirement profile,2.63
+Location,0.18570429,14,Demographic attributes,1.72
+Vocational_Program,0.16142444,15,Training performance (human capital),1.5
+Certifications_Count,0.15627426,16,Training performance (human capital),1.45
+Gender,0.115829915,17,Demographic attributes,1.08
+Academic_Performance,0.085892335,18,Training performance (human capital),0.8
+Age,0.07822519,19,Demographic attributes,0.73

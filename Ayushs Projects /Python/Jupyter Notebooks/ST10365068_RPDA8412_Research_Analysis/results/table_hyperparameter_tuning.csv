@@ -1,0 +1,6 @@
+Model,Combinations tested,Best hyperparameters,Best mean CV F1
+Logistic Regression,4,{'C': 0.01},0.7533
+Decision Tree,12,"{'max_depth': 8, 'min_samples_split': 2}",0.6892
+Random Forest,12,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 200}",0.7439
+XGBoost,12,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 400}",0.8362
+Support Vector Machine,6,"{'C': 1, 'gamma': 'scale'}",0.7911
