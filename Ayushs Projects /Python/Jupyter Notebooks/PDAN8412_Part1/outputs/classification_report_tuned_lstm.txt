@@ -1,0 +1,11 @@
+Tuned LSTM
+
+              precision    recall  f1-score   support
+
+         EAP      0.828     0.802     0.814      2370
+         HPL      0.767     0.872     0.816      1691
+         MWS      0.842     0.768     0.804      1813
+
+    accuracy                          0.812      5874
+   macro avg      0.812     0.814     0.811      5874
+weighted avg      0.815     0.812     0.812      5874

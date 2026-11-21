@@ -1,0 +1,11 @@
+GRU (RMSprop, lr 0.001)
+
+              precision    recall  f1-score   support
+
+         EAP      0.834     0.665     0.740      2370
+         HPL      0.704     0.824     0.759      1691
+         MWS      0.738     0.816     0.775      1813
+
+    accuracy                          0.757      5874
+   macro avg      0.759     0.768     0.758      5874
+weighted avg      0.767     0.757     0.756      5874

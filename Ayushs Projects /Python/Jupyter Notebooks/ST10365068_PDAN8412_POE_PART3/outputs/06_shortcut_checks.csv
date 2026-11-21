@@ -1,0 +1,6 @@
+Measure,Real mean,Fake mean,Real median,Fake median,Difference in standard deviations
+File size (KB),28.26,27.76,28.052,27.335,0.129
+Width (pixels),256.0,256.0,256.0,256.0,0.0
+Height (pixels),256.0,256.0,256.0,256.0,0.0
+Brightness,114.484,114.423,113.554,113.596,0.002
+Contrast,56.414,55.231,56.141,54.859,0.109

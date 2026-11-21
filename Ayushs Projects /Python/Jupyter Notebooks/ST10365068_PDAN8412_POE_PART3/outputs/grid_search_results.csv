@@ -1,0 +1,5 @@
+model,learning_rate,batch_size,epochs_run,best_epoch,train_time_s,time_per_epoch_s,overfit_gap,val_accuracy,val_f1,val_roc_auc,val_log_loss
+exp3_lr0.001_bs32,0.001,32,8,8,77.0,9.6,-0.0155,0.7275,0.7148,0.8114,0.5348
+exp3_lr0.001_bs64,0.001,64,8,8,68.4,8.5,0.0289,0.795,0.8071,0.8819,0.444
+exp3_lr0.0001_bs32,0.0001,32,8,8,80.8,10.1,0.0175,0.8135,0.8076,0.8898,0.4214
+exp3_lr0.0001_bs64,0.0001,64,8,7,70.6,8.8,-0.0011,0.792,0.7903,0.8668,0.459

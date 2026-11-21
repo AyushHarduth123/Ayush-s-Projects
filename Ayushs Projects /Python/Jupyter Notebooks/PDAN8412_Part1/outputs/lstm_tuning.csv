@@ -1,0 +1,5 @@
+units,dropout,epochs_run,best_epoch,validation_loss,validation_accuracy,validation_macro_f1,seconds
+128,0.5,4,2,0.489,0.8158,0.8165,13.2601
+128,0.3,4,2,0.5094,0.8055,0.8051,12.2608
+64,0.5,4,2,0.5133,0.8085,0.8085,12.0958
+64,0.3,4,2,0.5174,0.7961,0.7959,11.9755

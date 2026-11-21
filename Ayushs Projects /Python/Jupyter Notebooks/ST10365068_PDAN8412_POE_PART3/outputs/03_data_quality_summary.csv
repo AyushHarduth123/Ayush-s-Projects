@@ -1,0 +1,10 @@
+"Check (full dataset of 140,000)",Result,Action
+File extensions,"jpg: 140,000",Nothing to remove
+Corrupt files (Pillow verify),0,Nothing to remove
+Image size,"256 by 256: 140,000",Resize to one size when loading
+Colour mode,"RGB: 140,000",Keep all three colour channels
+Nearly uniform images (contrast below 10),0,Nothing to remove
+Exact duplicates (MD5),0 files in 0 groups,Nothing to remove
+Duplicates across splits,0 groups,Nothing to remove
+Duplicates with both labels,0 groups,Nothing to remove
+Total flagged files,0,Excluded before sampling in 4.3

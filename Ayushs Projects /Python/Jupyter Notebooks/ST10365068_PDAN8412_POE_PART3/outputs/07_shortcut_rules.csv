@@ -1,0 +1,4 @@
+Measure,Best rule found on the training split,Train accuracy,Validation accuracy
+File size (KB),fake if File size (KB) is below 28.27,0.5372,0.5396
+Brightness,fake if Brightness is below 80.73,0.5023,0.499
+Contrast,fake if Contrast is below 51.57,0.5263,0.5307

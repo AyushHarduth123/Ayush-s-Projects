@@ -1,0 +1,11 @@
+,EAP,MWS,HPL
+avg_word_length,4.467,4.44,4.503
+commas,2.227,1.993,1.523
+semicolons,0.171,0.44,0.203
+colons,0.022,0.056,0.008
+question_marks,0.065,0.069,0.03
+exclamation_marks,0.0,0.0,0.0
+double_quotes,0.378,0.243,0.091
+apostrophes,0.169,0.079,0.303
+stopword_ratio,0.52,0.523,0.485
+type_token_ratio,0.89,0.886,0.891

@@ -1,0 +1,11 @@
+Baseline LSTM
+
+              precision    recall  f1-score   support
+
+         EAP      0.830     0.754     0.790      2370
+         HPL      0.781     0.831     0.805      1691
+         MWS      0.775     0.821     0.797      1813
+
+    accuracy                          0.797      5874
+   macro avg      0.795     0.802     0.797      5874
+weighted avg      0.798     0.797     0.796      5874

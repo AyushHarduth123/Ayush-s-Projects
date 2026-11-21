@@ -1,0 +1,10 @@
+Check,Finding,Decision
+Missing values,0 missing cells,Nothing to fill or remove.
+Duplicate sentences,0 duplicated texts,"Nothing to remove, so no sentence can leak between the training and test sets."
+Near-duplicate sentences,1 pair differing only in a capital letter (same author),Keep both. One pair cannot change the results.
+Empty or blank texts,0 empty texts,Nothing to remove.
+Very short texts (under 4 words),25 sentences,"Keep them. They are real sentences and are few, and a real fan may also type a short line."
+Extreme long sentences,"726 above 62 words, longest 861 words","Keep them but cut every sentence to one common length later, so that no single sentence sets the size."
+Non-ASCII characters,"197 sentences, 25 distinct characters","Keep them, only lower-case the text. They are genuine features of the authors' writing, but see the pitfalls in the report."
+Missing punctuation types,"No exclamation marks, hyphens or dashes in the file","Report it, and leave those features out of the style charts because they are always zero."
+Class imbalance,"Largest class 40.3 percent, smallest 28.8 percent","Mild imbalance. Use stratified splits, macro metrics, and test class weights as an improvement."

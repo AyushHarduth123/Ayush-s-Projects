@@ -1,0 +1,9 @@
+Decision,Choice,Evidence
+Model input,"Lower-cased words plus , ; : ? "" ' as separate tokens",Stopwords and punctuation carry writing style; the style tests in section 4f found real differences.
+Stopwords and lemmatisation,"Kept in the input, not lemmatised","They were only removed for the EDA views, so that the model can use function words."
+Sequence length (maxlen),64 tokens,95th percentile of training lengths; only 4.9% of sentences are cut.
+Word list size (num_words),"11,969",Words seen at least twice in training; the rest become the <OOV> token.
+Embedding size,128,Follows the class notebook; a compact vector for each known word.
+Padding,"Padding at the start, cutting at the end","Tested in section 8, because the network reads its final answer after the last token."
+Split,"70 / 30 stratified, then 20% of training as validation",Same author mix in every set; seed 42.
+Class imbalance,Class weights tested as an improvement,"The classes are only mildly unbalanced, so a large effect is not expected."

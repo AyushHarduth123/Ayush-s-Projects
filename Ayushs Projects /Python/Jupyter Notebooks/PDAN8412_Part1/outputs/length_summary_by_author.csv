@@ -1,0 +1,6 @@
+,word_count,word_count,word_count,word_count,word_count,char_count,char_count,char_count,char_count,char_count
+,mean,median,std,min,max,mean,median,std,min,max
+author,,,,,,,,,,
+EAP,25.4,21.0,18.6,2,267,142.2,115.0,105.8,21,1533
+MWS,27.4,23.0,23.1,2,861,151.7,130.0,126.3,21,4663
+HPL,27.8,26.0,14.1,4,147,155.8,142.0,82.0,21,900
