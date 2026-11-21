@@ -1,0 +1,5 @@
+# macOS Finder folder settings
+.DS_Store
+
+# Jupyter autosave backups
+.ipynb_checkpoints/
