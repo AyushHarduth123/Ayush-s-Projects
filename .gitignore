@@ -3,3 +3,21 @@
 
 # Jupyter autosave backups
 .ipynb_checkpoints/
+
+# ---- Local-only secrets (each project has an example/placeholder showing what goes here) ----
+appsettings.Local.json
+.env
+!.env.example
+apikey.properties
+**/certs/*.key
+cookies.txt
+
+# ---- Build output, dependencies and IDE caches (rebuilt automatically) ----
+bin/
+obj/
+.vs/
+.idea/
+node_modules/
+__pycache__/
+Ayushs Projects /Java(1st Year)/**/build/
+Ayushs Projects /Java(1st Year)/**/dist/

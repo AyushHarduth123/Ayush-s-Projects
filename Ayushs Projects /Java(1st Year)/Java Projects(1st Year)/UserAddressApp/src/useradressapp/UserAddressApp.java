@@ -30,14 +30,14 @@ public class UserAddressApp {
         
         System.out.println("Enter house number: ");
         houseNumber = addressData.nextInt();
+        addressData.nextLine(); // move past the end of the house number line
         
         
         System.out.println("Enter street name: ");
-        strName = addressData.next();
-        addressData.nextLine();
+        strName = addressData.nextLine().trim(); // nextLine keeps multi-word names like "Main Road"
         
         System.out.println("Enter city name: ");
-        city = addressData.next();
+        city = addressData.nextLine().trim();
         
         System.out.println("Enter area code: ");
         areaCode = addressData.nextInt();

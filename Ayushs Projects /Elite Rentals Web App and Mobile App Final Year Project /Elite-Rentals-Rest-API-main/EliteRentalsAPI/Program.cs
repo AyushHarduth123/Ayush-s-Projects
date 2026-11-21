@@ -14,6 +14,8 @@ namespace EliteRentalsAPI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            // Real passwords and keys live in appsettings.Local.json, which git ignores (see appsettings.json for the keys it needs).
+            builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
 
             // Add services to the container.
 

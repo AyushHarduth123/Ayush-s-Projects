@@ -8,7 +8,12 @@ plugins {
 
 val apikeyPropertiesFile = rootProject.file("apikey.properties")
 val apikeyProperties = Properties()
-apikeyProperties.load(FileInputStream(apikeyPropertiesFile))
+// apikey.properties is git-ignored; copy apikey.properties.example to create it
+if (apikeyPropertiesFile.exists()) {
+    apikeyProperties.load(FileInputStream(apikeyPropertiesFile))
+} else {
+    logger.warn("apikey.properties not found - weather requests will fail until you add your AccuWeather key")
+}
 
 android {
     namespace = "com.example.acuuweatherapp"
@@ -21,7 +26,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        buildConfigField("String", "ACCUWEATHER_API_KEY", "\"${apikeyProperties["ACCUWEATHER_API_KEY"]}\"")
+        buildConfigField("String", "ACCUWEATHER_API_KEY", "\"${apikeyProperties.getProperty("ACCUWEATHER_API_KEY", "")}\"")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

@@ -5,6 +5,9 @@ using ST10365068_CLDV_6212_CLOUD_PART_1.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Real passwords and keys live in appsettings.Local.json, which git ignores (see appsettings.json for the keys it needs).
+builder.Configuration.AddJsonFile("appsettings.Local.json", optional: true, reloadOnChange: true);
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -28,8 +31,8 @@ builder.Services.AddSingleton(new AzureProductsQueueService(connectionString, se
 builder.Services.AddSingleton(new AzureFileService(storageAccountName, fileShareName, storageAccountKey));
 builder.Services.AddScoped<CustomerService>();
 
-var blobServiceClient = new BlobServiceClient(builder.Configuration.GetConnectionString("AzureBlobStorage"));
-builder.Services.AddSingleton(blobServiceClient);
+// Created on first upload, so pages still open when Blob storage isn't configured
+builder.Services.AddSingleton(_ => new Lazy<BlobServiceClient>(() => new BlobServiceClient(builder.Configuration.GetConnectionString("AzureBlobStorage"))));
 builder.Services.AddScoped<AzureBlobService>();
 
 var app = builder.Build();

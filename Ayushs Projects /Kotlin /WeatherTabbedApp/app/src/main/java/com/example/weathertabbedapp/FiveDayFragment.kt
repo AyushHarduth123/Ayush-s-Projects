@@ -13,7 +13,7 @@ import retrofit2.Response
 class FiveDayFragment : Fragment() {
 
     private lateinit var textView: TextView
-    private val apiKey = "YOUR_ACCUWEATHER_API_KEY"
+    private val apiKey = BuildConfig.ACCUWEATHER_API_KEY
     private val locationKey = "YOUR_LOCATION_KEY" // e.g., "328328" for Johannesburg
 
     override fun onCreate(savedInstanceState: Bundle?) {

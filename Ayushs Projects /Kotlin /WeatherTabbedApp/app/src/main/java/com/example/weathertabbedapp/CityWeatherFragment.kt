@@ -18,7 +18,7 @@ class CityWeatherFragment : Fragment() {
     private lateinit var searchButton: Button
     private lateinit var resultText: TextView
 
-    private val apiKey = "YOUR_ACCUWEATHER_API_KEY"
+    private val apiKey = BuildConfig.ACCUWEATHER_API_KEY
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

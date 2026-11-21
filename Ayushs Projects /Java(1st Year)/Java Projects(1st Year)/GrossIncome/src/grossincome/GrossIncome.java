@@ -12,39 +12,26 @@ public class GrossIncome {
     
     
      public static void main(String[] args) {
-    double rate;
-    double hours;
-    double gross;
-    userInput();
-    
-    Scanner scan = new Scanner(System.in);
-    
-         System.out.println("What are your total hours: ");
-         double totHours = scan.nextDouble();
-         
-         userInput(totHours);
-    
+        // One Scanner for all input: two Scanners on System.in can swallow each other's input
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("What are your total hours: ");
+        double totHours = scan.nextDouble();
+
+        userInput(scan, totHours);
     }
 
-    
-    //Method Declalarations 
-    public static void  userInput(){
-    Scanner inp = new Scanner(System.in);
- 
+
+    //Method Declarations
+    public static void userInput(Scanner inp, double hours){
         System.out.println("Enter your hourly rate: ");
         double rate = inp.nextDouble();
-        
-        System.out.println("Enter total number of hours: ");
-        double hours = inp.nextDouble();
-        
-        
-        
+
         double gross = hours * rate;
         System.out.println("Your Income Information: "
                 + "\nRate:"+rate
                 + "\nTotal Hours:"+hours
                 + "\nYour Gross Income: "+gross);
-        
     }
     
 }

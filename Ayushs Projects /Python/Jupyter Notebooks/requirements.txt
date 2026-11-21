@@ -1,0 +1,24 @@
+# Libraries used by the notebooks in this folder.
+# Install with:  pip install -r requirements.txt
+# Tested with Python 3.10-3.13 (November 2026).
+
+jupyter
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+statsmodels
+scikit-learn
+imbalanced-learn
+xgboost
+shap>=0.51          # older SHAP versions crash on XGBoost 3 models (RPDA8412 research notebook)
+tensorflow
+nltk                # the notebooks download the NLTK data they need on first run
+wordcloud
+textblob
+vaderSentiment
+scikit-image
+pillow
+openpyxl            # read_excel for the .xlsx datasets
+pyspark             # PDAN8412 Ice Task 2: needs Java 17 or newer installed (java -version)

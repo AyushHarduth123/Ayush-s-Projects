@@ -45,14 +45,18 @@ export default function App() {
         localStorage.removeItem("role");
         setRole(null);
       }
-    } catch {}
+    } catch {
+      // localStorage can be unavailable (e.g. private browsing); the role still works for this session
+    }
   }
 
   async function handleLogout() {
     try {
       const csrf = await fetchCsrfToken();
       await api.post("/auth/logout", {}, { headers: { "X-CSRF-Token": csrf } });
-    } catch {}
+    } catch {
+      // Even if the server call fails, still log the user out locally below
+    }
     localStorage.removeItem("role");
     setRole(null);
   }

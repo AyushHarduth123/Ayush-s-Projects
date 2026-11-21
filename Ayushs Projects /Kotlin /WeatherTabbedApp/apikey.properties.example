@@ -1,0 +1,3 @@
+# Copy this file to apikey.properties (git-ignored) and add your AccuWeather key
+# from https://developer.accuweather.com
+ACCUWEATHER_API_KEY=your_accuweather_api_key

@@ -1,3 +1,5 @@
+-- Start from a clean database so the whole script can be run top to bottom
+DROP DATABASE IF EXISTS PracticeSql;
 Create database PracticeSql;
 use PracticeSql;
 -- creating first table 
@@ -104,12 +106,13 @@ alter table products modify product_price decimal(4,2) not null;
 -- the check constraint checks if the values in the table match the arguement in the check 
 -- so if i tried to add a product witha rice lower than 1.00 then it would throw a error 
 -- i didnt run this but just showing how it works 
-create table products(
-	product_id int,
-    product_name varchar(50),
-    product_price decimal(4,2),
-    constraint minimum_price check(product_price > 1.00)
-);
+-- (commented out: products already exists above, so running it would error)
+-- create table products(
+-- 	product_id int,
+--     product_name varchar(50),
+--     product_price decimal(4,2),
+--     constraint minimum_price check(product_price > 1.00)
+-- );
 
 -- adding a check constriant to a table that already excists 
 alter table products 
@@ -155,9 +158,10 @@ modify column amount decimal(4,2);
 
 -- adding a primary key 
 -- can only have 1 primary key per table 
-alter table transactions
-add constraint 
-primary key(transaction_id);
+-- (commented out: transaction_id is already the primary key, so adding it again errors)
+-- alter table transactions
+-- add constraint 
+-- primary key(transaction_id);
 
 insert into transactions
 values(101, 4.33);
@@ -181,7 +185,7 @@ alter table transactions
 auto_increment= 1000;
 
 delete from transactions;
-drop table transactions;
+-- drop table transactions;  (commented out: the insert below needs the table)
 
 insert into transactions(amount)
 values(48.89);
@@ -416,8 +420,9 @@ set supervisor_id = 3
 where employee_id = 6;
 select * from employees;
 
-alter table employees 
-drop column superviosor_id;
+-- (commented out: the self join below and later inserts into employees still use supervisor_id)
+-- alter table employees 
+-- drop column supervisor_id;
 
 select a.first_name, a.last_name, concat(b.first_name," ", b.last_name ) as "reports_to"
 from employees as a
@@ -613,6 +618,9 @@ add constraint fk_customer_id
 foreign key(customer_id) references customers(customer_id)
 on delete cascade;
 
+-- a constraint name can only be used once, so drop the cascade version before adding the set null version
+alter table transactions drop foreign key fk_customer_id;
+
 alter table transactions 
 add constraint fk_customer_id
 foreign key(customer_id) references customers(customer_id)
@@ -632,9 +640,9 @@ begin
 end//
 delimiter ;
 
-call get_customers();
+call get_transactions();
 
-drop procedure get_customers;
+drop procedure get_transactions;
 
 
 delimiter //

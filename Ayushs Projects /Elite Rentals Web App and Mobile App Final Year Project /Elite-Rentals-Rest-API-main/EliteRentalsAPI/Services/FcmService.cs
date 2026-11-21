@@ -8,7 +8,7 @@ namespace EliteRentalsAPI.Services
     public class FcmService
     {
         private readonly string _projectId;
-        private readonly GoogleCredential _credential;
+        private readonly GoogleCredential? _credential;
         private readonly HttpClient _http;
         private readonly ILogger<FcmService> _logger;
 
@@ -19,21 +19,30 @@ namespace EliteRentalsAPI.Services
             _projectId = config["Fcm:ProjectId"];
             var firebaseJson = Environment.GetEnvironmentVariable("FIREBASE_KEY_JSON");
 
+            _http = new HttpClient();
+
+            // Without the key the API still runs; push notifications are just switched off.
             if (string.IsNullOrWhiteSpace(firebaseJson))
-                throw new InvalidOperationException("❌ Firebase key not found in environment variable 'FIREBASE_KEY_JSON'");
+            {
+                _logger.LogWarning("⚠️ FIREBASE_KEY_JSON is not set - push notifications are disabled.");
+                return;
+            }
 
             using var stream = new MemoryStream(Encoding.UTF8.GetBytes(firebaseJson));
             _credential = GoogleCredential.FromStream(stream)
                 .CreateScoped("https://www.googleapis.com/auth/firebase.messaging");
-
-
-            _http = new HttpClient();
 
             _logger.LogInformation("✅ FCM Service initialized for project: {ProjectId}", _projectId);
         }
 
         public async Task SendAsync(string token, string title, string body, object? data = null)
         {
+            if (_credential == null)
+            {
+                _logger.LogWarning("Push notification skipped (FIREBASE_KEY_JSON not set): {Title}", title);
+                return;
+            }
+
             try
             {
                 // Get OAuth2 access token for FCM

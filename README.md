@@ -37,6 +37,7 @@ Hi, I'm Ayush. This repo is my portfolio of coursework and personal projects, fr
 - [Data Analytics & Machine Learning](#-data-analytics--machine-learning)
 - [Software Development](#-software-development)
 - [Repository Structure](#-repository-structure)
+- [Running the Apps](#-running-the-apps-keys-and-passwords)
 - [Running the Notebooks](#-running-the-notebooks)
 
 ---
@@ -139,17 +140,33 @@ Ayushs Projects/
 
 ---
 
+## 🔐 Running the Apps (keys and passwords)
+
+No real passwords or API keys are stored in this repo. Each app reads them from a local file that git ignores, so add your own before running:
+
+| Project | Put your keys in | What goes there |
+|:--|:--|:--|
+| CLDV6212 Azure app | `appsettings.Local.json` (next to `appsettings.json`) | Azure SQL connection string and Azure Storage keys |
+| Elite Rentals REST API | `EliteRentalsAPI/appsettings.Local.json` | PostgreSQL connection string and JWT key (+ `FIREBASE_KEY_JSON` env variable for push notifications) |
+| Elite Rentals Web App | `appsettings.Local.json` | Google sign-in client secret and email password |
+| AtlasPay API | `payments-api/.env` (copy `.env.example`) | MongoDB connection string and JWT secret |
+| AcuuWeatherApp / WeatherTabbedApp | `apikey.properties` (copy `apikey.properties.example`) | AccuWeather API key |
+
+`appsettings.json` in each .NET project shows the exact setting names (their values read `SET_IN_appsettings.Local.json`). Without the local file the apps still start; only the features that need the database or cloud service won't work.
+
+---
+
 ## 🚀 Running the Notebooks
 
 1. **Clone the repo**
    ```bash
    git clone https://github.com/AyushHarduth123/Ayush-s-Projects.git
    ```
-2. **Install the main libraries**
+2. **Install the libraries**
    ```bash
-   pip install numpy pandas matplotlib seaborn scikit-learn scipy statsmodels tensorflow nltk wordcloud pillow
+   pip install -r "Ayushs Projects /Python/Jupyter Notebooks/requirements.txt"
    ```
-   A few notebooks also use `xgboost`, `shap`, `imbalanced-learn`, `textblob`, `vaderSentiment`, `scikit-image` or `pyspark`.
+   PDAN8412 Ice Task 2 uses PySpark, which needs **Java 17 or newer** installed. The text notebooks download the NLTK data they need the first time they run.
 3. **Open each notebook from its own folder.** Every notebook loads its data by file name from the folder it sits in, so keep each project folder together.
 
 **Large datasets not stored in the repo:**
